@@ -1,5 +1,5 @@
 library(shiny)
-library(Elbo)
+library(Knees)
 
 shinyServer(function(input, output){
     output$stick <- renderPlot({
