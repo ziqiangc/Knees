@@ -142,3 +142,10 @@ stickyplot <- function(face, gender, arms) {
                hat=F)
 
 }
+
+#' @importFrom shiny runApp
+#' @export
+sticky <- function() {
+    path <- system.file(package = "Elbo", "sticky")
+    runApp(path)
+}
